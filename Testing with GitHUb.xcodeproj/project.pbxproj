@@ -12,6 +12,7 @@
 		020BC00C2320595E00FE6761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020BC00A2320595E00FE6761 /* Main.storyboard */; };
 		020BC00E2320596000FE6761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020BC00D2320596000FE6761 /* Assets.xcassets */; };
 		020BC0112320596000FE6761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020BC00F2320596000FE6761 /* LaunchScreen.storyboard */; };
+		020BC01B23205FBA00FE6761 /* GitHub API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020BC01A23205FBA00FE6761 /* GitHub API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		020BC00D2320596000FE6761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020BC0102320596000FE6761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		020BC0122320596000FE6761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020BC01A23205FBA00FE6761 /* GitHub API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GitHub API.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				020BC0062320595E00FE6761 /* AppDelegate.swift */,
 				020BC0082320595E00FE6761 /* ViewController.swift */,
+				020BC01A23205FBA00FE6761 /* GitHub API.swift */,
 				020BC00A2320595E00FE6761 /* Main.storyboard */,
 				020BC00D2320596000FE6761 /* Assets.xcassets */,
 				020BC00F2320596000FE6761 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020BC01B23205FBA00FE6761 /* GitHub API.swift in Sources */,
 				020BC0092320595E00FE6761 /* ViewController.swift in Sources */,
 				020BC0072320595E00FE6761 /* AppDelegate.swift in Sources */,
 			);
